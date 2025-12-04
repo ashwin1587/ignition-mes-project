@@ -1,0 +1,1 @@
+INSERT INTO Employee(Name,Age,Sex,email) VALUES(:NAME,:AGE,:GENDER,:EMAIL)

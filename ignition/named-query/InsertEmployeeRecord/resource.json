@@ -1,0 +1,55 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "IgnitionDB",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "b715736e4dc63334f39c9c80cdeecec8a5943f1d775f4ebd131f0831261b074d",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "ashwin",
+      "timestamp": "2025-11-29T06:40:00Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "NAME",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "AGE",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "EMAIL",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "GENDER",
+        "sqlType": 7
+      }
+    ]
+  }
+}
